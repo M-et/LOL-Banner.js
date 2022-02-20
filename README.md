@@ -3,6 +3,8 @@ The code for the LOL Banner discord bot, a bot that bans anyone for playing leag
 
 ![LOL Banner Icon](https://github.com/M-et/LOL-Banner.js/blob/main/LOLBannerIcon.png)
 
+![Meme Inspiration](https://github.com/M-et/LOL-Banner.js/blob/main/s4vtf394saf81.jpg)
+
 # License
 >As the user of this code, you are allowed to use, copy, and change the code as long as you credit me (M'et) in an obvious place, for example in the Discord bot's about me section, and you agree to not use this code for commercial use. You are not allowed to profit off of this bot or any variation of this bot you make using this code.
  
