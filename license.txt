@@ -1,1 +1,3 @@
-As the user of this code, you are allowed to use, copy, and change the code as long as you credit me (M'et) in an obvious place, for example in the Discord bot's about me section, and you agree to not use this code for commercial use. You are not allowed to profit off of this bot or any variation of this bot you make using this code.
+As the user of this code, you are allowed to use, copy, and change the code as long as you credit me (M'et) in an obvious place, 
+for example in the Discord bot's about me section, and you agree to not use this code for commercial use. You are not allowed to 
+profit off of this bot or any variation of this bot you make using this code.
