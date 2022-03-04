@@ -1,5 +1,6 @@
 # LOL-Banner.js
-The code for the LOL Banner discord bot, a bot that bans anyone for playing league of legends. This project was made based off of the meme "anyone playing league for more than 30 mins gets banned", I made the bot and put it up on my YouTube channel: https://www.youtube.com/c/MetYT but I will not be verifying the bot because discord wants a form of ID to verify discord bots to allow them to join more than 100 servers. (Original video : https://youtu.be/YG7F07pBMT0 )
+The code for the LOL Banner discord bot, a bot that bans anyone for playing League Of Legends. This project was made based off of the meme "anyone playing league for more than 30 mins gets banned", I made the bot and put it up on my YouTube channel: https://www.youtube.com/c/MetYT but I will no longer be keeping the bot up and running(Sorry). (Original video : https://youtu.be/YG7F07pBMT0 )
+I don't ask for money in exchange for the code, isntead I ask that you subscribe to my channel because it's free.
 
 ![LOL Banner Icon](https://github.com/M-et/LOL-Banner.js/blob/main/LOLBannerIcon.png)
 
