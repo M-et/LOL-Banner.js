@@ -11,7 +11,7 @@ function readyDiscord () {
    
     client.user.setActivity(`Protecting ${client.guilds.cache.size} servers`, {
         type: "STREAMING",
-        url: "https://www.twitch.tv/just_alrighty"
+        url: "https://www.twitch.tv/m_ett"
       })           
     ;
 
