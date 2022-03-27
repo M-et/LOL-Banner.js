@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const embed = new Discord.MessageEmbed
+const embed = new Discord.MessageEmbed;
 
-client.login('INSERT TOKEN HERE')
+client.login('INSERT TOKEN HERE');
 
 client.on('ready', readyDiscord);
 function readyDiscord () {
@@ -29,7 +29,7 @@ client.on('presenceUpdate', (oldMember, newMember) => {
 
     //check to see if the user has an activities, and if so, how many
     if (activityLength >0 ){
-        console.log("member has " + activityLength + " activities")
+        console.log("member has " + activityLength + " activities");
 
         for (let i = 0; i < activityLength; i++) {         
           
@@ -38,7 +38,7 @@ client.on('presenceUpdate', (oldMember, newMember) => {
         //console.log("now in lower case " + newMember.member.presence.activities[0].name.toLowerCase());
 
         if (newMember.member.presence.activities[i].name.toLowerCase() == "league of legends") { // Started playing.
-            console.log(`<a:banned:942166115373678602> ${newMember.user.tag} has been banned for playing LOL <a:banned:942166115373678602>`)
+            console.log(`<a:banned:942166115373678602> ${newMember.user.tag} has been banned for playing LOL <a:banned:942166115373678602>`);
             try{
 
                 guild.members.ban(`${newMember.user.id}`, {reason: 'Playing League Of Legends'}).catch((err) => {
@@ -51,10 +51,10 @@ client.on('presenceUpdate', (oldMember, newMember) => {
         }
     }
     } else {
-        console.log("member has no activities")
-        console.log("")
+        console.log("member has no activities");
+        console.log("");
     }
 });
 } 
 )
-client.login('INSERT TOKEN HERE')
+client.login('INSERT TOKEN HERE');
