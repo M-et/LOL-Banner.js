@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const embed = new Discord.MessageEmbed
+const embed = new Discord.MessageEmbed;
 
-client.login('INSERT TOKEN HERE')
+client.login('INSERT TOEKN');
 
 client.on('ready', readyDiscord);
 function readyDiscord () {
@@ -12,13 +12,12 @@ function readyDiscord () {
     client.user.setActivity(`Protecting ${client.guilds.cache.size} servers`, {
         type: "STREAMING",
         url: "https://www.twitch.tv/m_ett"
-      })           
-    ;
+      });
 
 client.on('message', gotMessage);
 
 const bot = new Discord.Client();
-
+function gotMessage(msg) {};   
 
 client.on('presenceUpdate', (oldMember, newMember) => {
     const guild = newMember.guild;
@@ -29,18 +28,17 @@ client.on('presenceUpdate', (oldMember, newMember) => {
 
     //check to see if the user has an activities, and if so, how many
     if (activityLength >0 ){
-        console.log("member has " + activityLength + " activities")
+        console.log("member has " + activityLength + " activities");
 
         for (let i = 0; i < activityLength; i++) {         
           
         //Debugging messages to the log
         console.log("Activity in position " + i + " is " + newMember.member.presence.activities[i].name.toLowerCase());
         //console.log("now in lower case " + newMember.member.presence.activities[0].name.toLowerCase());
-
+        //If you want to ban players of any other game than LOL, changer where it says league of legends to any other lowercase name of a game
         if (newMember.member.presence.activities[i].name.toLowerCase() == "league of legends") { // Started playing.
-            console.log(`<a:banned:942166115373678602> ${newMember.user.tag} has been banned for playing LOL <a:banned:942166115373678602>`)
+            console.log(`<a:banned:942166115373678602> ${newMember.user.tag} has been banned for playing LOL <a:banned:942166115373678602>`);
             try{
-
                 guild.members.ban(`${newMember.user.id}`, {reason: 'Playing League Of Legends'}).catch((err) => {
                 console.error(err);
                 var x = err.message;});
@@ -51,10 +49,8 @@ client.on('presenceUpdate', (oldMember, newMember) => {
         }
     }
     } else {
-        console.log("member has no activities")
-        console.log("")
+        console.log("member has no activities");
     }
 });
 } 
-)
-client.login('INSERT TOKEN HERE')
+client.login('INSERT TOKEN');
